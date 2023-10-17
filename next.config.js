@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images: {
+      domains: ['https://devcristi.github.io'], // Replace 'username.github.io' with your GitHub Pages domain.
+    },
+  }
 
-module.exports = nextConfig
+  module.exports = nextConfig;
