@@ -41,7 +41,7 @@ export default function Index() {
       <div className={styles.projectDescription}>
         <div ref={imageContainer} className={styles.imageContainer}>
           <Image
-            src={`/images/${projects[selectedProject].src}`}
+            src={`images/${projects[selectedProject].src}`}
             fill={true}
             alt="project image"
             priority={true}

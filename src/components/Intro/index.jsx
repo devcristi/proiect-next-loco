@@ -35,7 +35,7 @@ export default function Index() {
         <div className={styles.intro}>
             <div ref={backgroundImage} className={styles.backgroundImage}>
                 <Image
-                    src={'/images/background.jpg'}
+                    src={'images/background.jpg'}
                     fill={true}
                     alt="backgroundImage"
                 />
@@ -43,7 +43,7 @@ export default function Index() {
             <div className={styles.introContainer}>
                 <div ref={introImage} data-scroll data-scroll-speed="0.3" className={styles.introImage}>
                     <Image
-                        src={'/images/img1.jpg'}
+                        src={'images/img1.jpg'}
                         fill={true}
                         alt="backgroundImage"
                     />
