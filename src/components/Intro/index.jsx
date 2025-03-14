@@ -49,7 +49,7 @@ export default function Index() {
                     />
                 </div>
                 <div  data-scroll data-scroll-speed="0.7" className={styles.centerText}>
-                    <h2>welcome to</h2>
+                    <h2>welcome to </h2>
                     <h1>brasov</h1>
                 </div>
             </div>
